@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+ 
+        <header>
+            <h2>📱 Weather App</h2>
+        </header>
+
+        <div class="search-section">
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <div class="weather-card">
+
+            <div id="weatherIcon" class="weather-icon">
+                ☀️
+            </div>
+
+            <h2 id="cityName">Lagos, Nigeria</h2>
+
+            <h1 id="temperature">--°C</h1>
+
+            <p id="description">Weather Description</p>
+
+        </div>
+
+        <div class="stats">
+
+            <div>
+                <p>Humidity</p>
+                <h3 id="humidity">--%</h3>
+            </div>
+
+            <div>
+                <p>Wind</p>
+                <h3 id="wind">-- km/h</h3>
+            </div>
+
+            <div>
+                <p>UV Index</p>
+                <h3>High</h3>
+            </div>
+
+        </div>
+
+        <div class="forecast">
+
+            <h3>5-DAY FORECAST</h3>
+
+            <div id="forecastContainer"></div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
